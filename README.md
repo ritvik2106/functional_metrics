@@ -14,7 +14,7 @@ For each k-grams where k is in [2, max_ngrams] :
     Get k-grams of continuous chars in actual and predicted. 
     Check how many are matching 
     Compare the number of matching k-grams against total k-grams in Actual (Recall) and total k-grams in Predicted (Precision)
-    Take maximum of precision and 
+    Take maximum of precision and recall
 Take average of the maximum scores across all k-grams
 ```
 
